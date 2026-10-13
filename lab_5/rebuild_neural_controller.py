@@ -20,7 +20,7 @@ import sys
 from pathlib import Path
 
 # Define source and destination mappings
-LAB_DIR = Path("/home/pi/lab_5_fall_2025")
+LAB_DIR = Path(__file__).resolve().parent
 NEURAL_CONTROLLER_LAUNCH = Path("/home/pi/pupperv3-monorepo/ros2_ws/src/neural_controller/launch")
 ROS2_WS = Path("/home/pi/pupperv3-monorepo/ros2_ws")
 
